@@ -8,12 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    private let networkService: NetworkService = .init()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        networkService.getList { result in
+            switch result {
+            case .success(let newData):
+                print(newData)
+            case .failure(let newError):
+                print(newError.localizedDescription)
+            }
+        }
     }
-
-
 }
-
