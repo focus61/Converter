@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1F08B1632906910100CF139F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F08B1622906910100CF139F /* AppDelegate.swift */; };
 		1F08B1652906910100CF139F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F08B1642906910100CF139F /* SceneDelegate.swift */; };
-		1F08B1672906910100CF139F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F08B1662906910100CF139F /* ViewController.swift */; };
+		1F08B1672906910100CF139F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F08B1662906910100CF139F /* MainTabBarController.swift */; };
 		1F08B16A2906910100CF139F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F08B1682906910100CF139F /* Main.storyboard */; };
 		1F08B16C2906910200CF139F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F08B16B2906910200CF139F /* Assets.xcassets */; };
 		1F08B16F2906910200CF139F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F08B16D2906910200CF139F /* LaunchScreen.storyboard */; };
@@ -17,13 +17,16 @@
 		1F08B17A2906950300CF139F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F08B1792906950300CF139F /* NetworkError.swift */; };
 		1F08B17C2906953B00CF139F /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F08B17B2906953B00CF139F /* NetworkModel.swift */; };
 		1F08B17E290697E300CF139F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F08B17D290697E300CF139F /* API.swift */; };
+		1F7665D4290B122500D99221 /* CryptoConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7665D3290B122500D99221 /* CryptoConverterViewController.swift */; };
+		1F7665D6290B13CC00D99221 /* CryptoConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7665D5290B13CC00D99221 /* CryptoConverterView.swift */; };
+		1F7665D9290B19AB00D99221 /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7665D8290B19AB00D99221 /* ConverterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F08B15F2906910100CF139F /* Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Converter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F08B1622906910100CF139F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F08B1642906910100CF139F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F08B1662906910100CF139F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F08B1662906910100CF139F /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		1F08B1692906910100CF139F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F08B16B2906910200CF139F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F08B16E2906910200CF139F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +35,9 @@
 		1F08B1792906950300CF139F /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		1F08B17B2906953B00CF139F /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		1F08B17D290697E300CF139F /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		1F7665D3290B122500D99221 /* CryptoConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoConverterViewController.swift; sourceTree = "<group>"; };
+		1F7665D5290B13CC00D99221 /* CryptoConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoConverterView.swift; sourceTree = "<group>"; };
+		1F7665D8290B19AB00D99221 /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +73,9 @@
 				1F08B176290694D400CF139F /* Network Layer */,
 				1F08B1622906910100CF139F /* AppDelegate.swift */,
 				1F08B1642906910100CF139F /* SceneDelegate.swift */,
-				1F08B1662906910100CF139F /* ViewController.swift */,
+				1F08B1662906910100CF139F /* MainTabBarController.swift */,
+				1F7665D8290B19AB00D99221 /* ConverterViewController.swift */,
+				1F7665D7290B13D200D99221 /* Crypto Converter */,
 				1F08B1682906910100CF139F /* Main.storyboard */,
 				1F08B16B2906910200CF139F /* Assets.xcassets */,
 				1F08B16D2906910200CF139F /* LaunchScreen.storyboard */,
@@ -85,6 +93,15 @@
 				1F08B17D290697E300CF139F /* API.swift */,
 			);
 			path = "Network Layer";
+			sourceTree = "<group>";
+		};
+		1F7665D7290B13D200D99221 /* Crypto Converter */ = {
+			isa = PBXGroup;
+			children = (
+				1F7665D3290B122500D99221 /* CryptoConverterViewController.swift */,
+				1F7665D5290B13CC00D99221 /* CryptoConverterView.swift */,
+			);
+			path = "Crypto Converter";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,12 +176,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F08B17C2906953B00CF139F /* NetworkModel.swift in Sources */,
-				1F08B1672906910100CF139F /* ViewController.swift in Sources */,
+				1F08B1672906910100CF139F /* MainTabBarController.swift in Sources */,
 				1F08B1632906910100CF139F /* AppDelegate.swift in Sources */,
 				1F08B178290694E400CF139F /* NetworkService.swift in Sources */,
 				1F08B1652906910100CF139F /* SceneDelegate.swift in Sources */,
 				1F08B17A2906950300CF139F /* NetworkError.swift in Sources */,
+				1F7665D6290B13CC00D99221 /* CryptoConverterView.swift in Sources */,
+				1F7665D4290B122500D99221 /* CryptoConverterViewController.swift in Sources */,
 				1F08B17E290697E300CF139F /* API.swift in Sources */,
+				1F7665D9290B19AB00D99221 /* ConverterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
